@@ -1,0 +1,99 @@
+﻿body {
+    background-color: #d2f4c6;
+    color: #326300;
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #2a940a;
+    color: #9df892;
+}
+
+    header h2 {
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    header h5 {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+nav {
+    background-color: #326300;
+    color: #d2f4c6;
+    padding: 15px;
+}
+
+    nav a {
+        color: #d2f4c6;
+    }
+
+        nav a:hover {
+            color: #37b810;
+        }
+
+    nav li {
+        padding: 10px;
+    }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #326300;
+}
+
+th, td {
+    border: solid 2px #326300;
+}
+
+table a {
+    color: #326300;
+    text-decoration: none;
+}
+
+    table a:hover {
+        color: #a1a2c9;
+    }
+
+tr:nth-child(even) {
+    background-color: #9df892;
+    color: #326300;
+}
+
+    tr:nth-child(even) a {
+        color: #326300;
+    }
+
+        tr:nth-child(even) a:hover {
+            color: #37b810;
+        }
+
+tr:nth-child(odd) {
+    background-color: #37b810;
+    color: #d2f4c6;
+}
+
+    tr:nth-child(odd) a {
+        color: #d2f4c6;
+    }
+
+        tr:nth-child(odd) a:hover {
+            color: #326300;
+        }
+
+footer {
+    text-align: left;
+    background-color: #326300;
+    color: #d2f4c6;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+    footer p {
+        padding-left: 10px;
+    }

@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainSite.master.cs" Inherits="FinalProject.MainSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title><%= Page.Title %></title>
+    <link href="Styles/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <h2>Kenosha Favorites</h2>
+                <h5>Best places in town!</h5>
+                <nav>
+                    <asp:Menu DataSourceID="RootMap" Orientation="Horizontal" runat="server" />
+                    <asp:SiteMapDataSource ID="RootMap" runat="server" ShowStartingNode="False" />
+                </nav>
+            </header>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <p>Copyright &copy; Jay Perrone 2022</p>
+        </footer>
+    </form>
+</body>
+</html>
